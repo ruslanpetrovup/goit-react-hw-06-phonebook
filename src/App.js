@@ -8,6 +8,7 @@ var debounce = require('lodash.debounce');
 
 
 const App = ({ error, btnValue, contacts, findContact, errorAlert }) => {
+  console.log(contacts)
   if (error) {
     setTimeout(() => {
       errorAlert()

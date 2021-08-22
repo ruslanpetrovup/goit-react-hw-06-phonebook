@@ -7,7 +7,6 @@ const phoneReducer = createReducer({
     error: false,
     contacts: [],
     filter: [],
-    contactsBul: false
 }, {
     [actions.btnValue]: (state, { payload }) => {
         if (!isNaN(Number(payload.valueName))) {
